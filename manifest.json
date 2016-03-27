@@ -1,0 +1,35 @@
+{
+  "manifest_version":"1",
+  "type":"WebApp",
+  "meta":{
+    "name":"Whatsapp",
+    "version":"1.0.0.1",
+    "minimum-overwolf-version": "0.77.4.0",
+    "author":"Bluscream",
+    "icon":"icon.png",
+    "icon_gray":"icon_gray.png",
+    "description":"Whatsapp Web for Overwolf"
+  },
+  "data": {
+    "start_window":"index",
+    "windows":{
+      "index":{
+        "file":"index.html",
+        "transparent":false,
+        "resizable":true,
+        "show_in_taskbar": true,
+        "size": {
+          "width": 900,
+          "height": 600
+        },
+        "start_position": {
+          "Top": 100,
+          "Left": 200
+        }
+      }
+    },
+    "plugins": [
+      "npOverwolfSamplePlugin.dll"
+    ]
+  }
+}
